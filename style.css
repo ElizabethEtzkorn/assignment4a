@@ -1,0 +1,33 @@
+body{
+  margin: 0
+}
+
+header{
+  background-image: url("images/top-image.png"), linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 0%, rgba(209,209,209,1) 32%, rgba(254,254,254,1) 100%);
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top: 2px solid darkred;
+  padding: 20px 100px 100px;
+}
+
+h1 {
+text-align: center;
+font-size: 50px;
+font-family: 'Sriracha', cursive;
+line-height: 40px;
+background-image: url(images/logo.png);
+background-repeat: no-repeat;
+background-position: 20px 0px;
+padding: 10px 10px 400px 10px;
+filter: drop-shadow(0 0 5px #000);
+}
+footer {
+  text-align: right;
+  font-family: 'Sriracha', cursive;
+  line-height: 20px;
+  background-image: url(images/bottom-image.png), linear-gradient(to top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 0%, rgba(209,209,209,1) 32%, rgba(254,254,254,1) 100%);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  border-bottom: 2px solid darkred;
+  padding: 5% 5% 10% 5%;
+}
